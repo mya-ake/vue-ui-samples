@@ -1,0 +1,37 @@
+{
+  "name": "vue-ui-samples",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "config": {
+    "nuxt": {
+      "port": "13080"
+    }
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.0",
+    "nuxt": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "cross-env": "^5.1.5",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-vue": "^4.5.0",
+    "node-sass": "^4.9.0",
+    "npm-run-all": "^4.1.3",
+    "sass-loader": "^7.0.1",
+    "sass-resources-loader": "^1.3.3"
+  }
+}
