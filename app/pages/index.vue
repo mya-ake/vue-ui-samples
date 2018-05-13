@@ -14,10 +14,6 @@ export default {
 
 <style lang="scss" scoped>
 
-.title {
-  font-size: 2rem;
-}
-
 .content {
   width: 100%;
   max-width: $w-content;

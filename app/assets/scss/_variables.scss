@@ -1,6 +1,9 @@
 $ct-default: #393939;
 $ct-sub: #888;
+
 $cbg-default: #fdfdfd;
+$cbg-hover: #e9e9e9;
+
 $cb-default: #e0e0e0;
 
 $ct-A: #3993DD;
@@ -8,6 +11,12 @@ $ct-A: #3993DD;
 $c-vue: #42b983;
 
 $w-content: 980px;
+
+$durations: (
+  fast: .16s,
+  default: .24s,
+  slow: .4s
+);
 
 $breakpoints: (
   small: 480px
